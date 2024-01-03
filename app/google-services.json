@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423764799343",
+    "project_id": "knockknock-9c587",
+    "storage_bucket": "knockknock-9c587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423764799343:android:eae376c7581b979c6e429a",
+        "android_client_info": {
+          "package_name": "com.example.knockknock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423764799343-vnbthllfo85khrejna20sh6o3k42iqca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC50cSYKZnQVy2KC3ON_ryChqdHjkcNTaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423764799343-vnbthllfo85khrejna20sh6o3k42iqca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

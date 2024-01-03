@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.orderactivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/food"
+        android:padding="50dp"
+        android:id="@+id/detailimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="sample item"
+        android:id="@+id/detailitemname"
+        android:textColor="#393838"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:src="@drawable/minus"
+            android:id="@+id/imgminus"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#666765"
+            android:id="@+id/quatity"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:src="@drawable/plus"
+            android:id="@+id/imgplus"/>
+    </LinearLayout>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/detailprice"
+     android:text="price: Rs 40"
+     android:textSize="20sp"
+     android:textStyle="bold"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="20dp"
+     android:textColor="@android:color/holo_red_dark"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/detaildescription"
+    android:text="@string/des"
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    />
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+
+     <androidx.appcompat.widget.AppCompatButton
+         android:layout_width="180dp"
+         android:layout_height="wrap_content"
+         android:text="add to cart"
+         android:id="@+id/btncart"
+         android:layout_marginEnd="10dp"
+         android:background="@drawable/custom_btn"
+         android:textColor="#ffff"
+         android:layout_marginTop="45dp"/>
+     <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+         android:padding="10dp"
+        android:text="order now"
+        android:id="@+id/btnorder"
+         android:background="@drawable/custom_btn2"
+        android:layout_marginTop="45dp"/>
+ </LinearLayout>
+
+</LinearLayout>

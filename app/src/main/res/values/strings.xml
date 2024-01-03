@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">knockknock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="des">A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll.</string>
+</resources>

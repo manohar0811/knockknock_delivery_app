@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.homeFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search nearby"
+        android:textSize="30sp"
+        android:textColor="#4C4C4B"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="25dp"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="25dp"
+      android:hint="enter location"
+      android:layout_marginEnd="25dp"
+      android:minHeight="48dp"
+      android:drawableStart="@drawable/ic_search"
+      android:padding="10dp"
+      android:drawablePadding="10dp"
+      android:background="@drawable/custom_search"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FA760B"
+        android:textSize="20sp"
+        android:text="Most Popular"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvplaces"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"/>
+
+</LinearLayout>

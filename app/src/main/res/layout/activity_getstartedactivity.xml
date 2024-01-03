@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.loginactivity$getstartedactivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome :)"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#FA760B"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/getstartedpng" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btngetstarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/custom_btn"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_24"
+        android:padding="10dp"
+        android:text="getstarted"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

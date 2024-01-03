@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.loginactivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/loginpage"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/imview"/>
+
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imview"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:text="login"
+        android:textColor="#FA760B"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tview"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_search"
+        android:drawableStart="@drawable/ic_mail"
+        android:drawablePadding="10dp"
+        android:hint="Enter your Mail"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etmail"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_search"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_btn"
+        android:text="login"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account?"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/tvsignup"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/btnlogin"
+        android:layout_toRightOf="@+id/tv2"
+        android:textColor="#FA760B"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"/>
+
+
+
+</RelativeLayout>

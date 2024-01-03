@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.orderactivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make payment"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Order Details:"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      android:layout_margin="20dp"
+
+      />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       android:background="@drawable/custom_search"
+       android:layout_marginEnd="30dp"
+       android:layout_marginStart="10dp"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ordered item :"
+           android:padding="10dp"
+           android:layout_marginStart="20dp"
+           android:textSize="20sp"
+
+           android:textStyle="bold"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="  Cake"
+           android:id="@+id/nameid"
+           android:textColor="#428A0F"
+           android:padding="10dp"
+           android:textSize="20sp"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_search"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Price      :"
+
+            android:padding="10dp"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Rs 100-/"
+            android:id="@+id/prid"
+            android:padding="10dp"
+            android:textColor="#428A0F"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsend"
+        android:textColor="#ffff"
+        android:background="@drawable/custom_btn"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="Pay Now"/>
+</LinearLayout>
